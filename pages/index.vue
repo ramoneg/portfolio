@@ -23,7 +23,6 @@
               :url="reference.homepage"
               :title="index"
               :subtitle="reference.subtitle"
-              :featured="reference.featured && reference.featured"
             />
         </div>
       </div>
@@ -39,7 +38,6 @@
               :url="job.homepage"
               :title="job.title"
               :subtitle="job.company"
-              :featured="job.featured && job.featured"
               >
               <h2 class="mt-2 text-gray-500">{{ job.years }}</h2>
             </card>
@@ -82,12 +80,10 @@ export default {
                 'Nitrous': {
                     subtitle: 'Development of Nitrous CMS',
                     homepage: 'https://racerfish.com/en/nitrous',
-                    featured: true
                 },
                 'Boesch Boats': {
                     subtitle: 'Website',
                     homepage: 'https://boesch.swiss',
-                    featured: true
                 },
                 Hessmoto: {
                     subtitle: 'Website + Blog & Motoscout api',
@@ -108,7 +104,6 @@ export default {
                     years: '2020 - now',
                     title: 'Web Developer',
                     homepage: 'https://racerfish.com',
-                    featured: true
                 },
                 {
                     company: 'RACERFISH AG',
