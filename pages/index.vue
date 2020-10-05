@@ -1,12 +1,19 @@
 <template>
   <div>
-    <h1 class="font-mono text-gray-500">Ramon Egger <span class="text-ocean-200">|</span> Full Stack Web Developer</h1>
-    <p class="mt-6 text-2xl md:text-3xl leading-none text-ocean-300">Hey! I am <span class="font-bold text-white text-4xl md:text-5xl">Ramon</span></p>
+    <h1 class="font-mono text-ocean-300 opacity-50">Ramon Egger <span class="text-ocean-200">|</span> Full Stack Web Developer</h1>
+    <p class="mt-4 text-2xl md:text-3xl leading-none text-ocean-300">Hey! I am <span class="font-bold text-white text-4xl md:text-5xl">Ramon</span></p>
     <p class="mt-2 text-xl leading-none text-ocean-300">I passionately code web-apps and websites</p>
-    <section ref="meta" class="text-xl leading-none text-ocean-300">This portfolio is on <a class="text-white font-bold" href="https://github.com/ramoneg/portfolio.git">GitHub</a></section>
+    <div class="text-xl leading-none text-ocean-300 mt-12">This portfolio is on <a class="text-white font-bold" href="https://github.com/ramoneg/portfolio.git">GitHub</a></div>
+    
+    <div class="mt-4 text-ocean-300">
+      <a target="_blank" href="mailto:ramon@ramonegger.ch"><font-awesome-icon size="lg" icon="envelope" /></a>
+      <a target="_blank" href="https://github.com/ramoneg" class="ml-2"><font-awesome-icon size="lg" :icon="['fab', 'github']" /></a>
+      <a target="_blank" href="https://instagram.com/aintroman" class="ml-2"><font-awesome-icon size="lg" :icon="['fab', 'instagram']" /></a>
+    </div>
+    
     <section ref="References">
       <div class="content">
-        <h-2>References</h-2>
+        <pageTitle>References</pageTitle>
         <div class="flex flex-wrap mt-2">
             <card
               class="w-full md:w-1/2 mb-2"
@@ -21,7 +28,7 @@
     </section>
     <section ref="Positions">
       <div class="content">
-        <h-2>Job Positions</h-2>
+        <pageTitle>Job Positions</pageTitle>
           <div class="flex flex-wrap mt-2">
             <card
               class="w-full md:w-1/2 mb-2"
@@ -43,8 +50,8 @@
 export default {
     head() {},
     components: {
-        card: () => import('../components/page/card'),
-        'h-2': () => import('../components/page/h2'),
+        'card': () => import('../components/page/card'),
+        'pageTitle': () => import('../components/page/pageTitle'),
     },
     data() {
         return {

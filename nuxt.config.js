@@ -2,6 +2,18 @@ export default {
     modules: [
       // Using package name
       '@nuxtjs/axios',
+      ['nuxt-fontawesome', {
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['faEnvelope']
+          },
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['faGithub', 'faInstagram']
+          },
+        ]
+      }],
     ],
     buildModules: ['@nuxtjs/tailwindcss'],
     build: {
