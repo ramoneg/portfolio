@@ -48,15 +48,30 @@
 
 <script>
 export default {
-    head() {},
+    head: {
+        title: 'Ramon Egger | Portfolio',
+        meta: [
+            { charset: 'utf-8' },
+            {
+                name: 'viewport',
+                content: 'width=device-width, initial-scale=1',
+            },
+            {
+                hid: "description",
+                name: 'description',
+                content: 'Ramon Eggers portfolio - full stack web developer from Zurich, Switzerland.',
+            },
+        ],
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    },
     components: {
-        'card': () => import('../components/page/card'),
-        'pageTitle': () => import('../components/page/pageTitle'),
+        card: () => import('../components/page/card'),
+        pageTitle: () => import('../components/page/pageTitle'),
     },
     data() {
         return {
             references: {
-                'SocialGate': {
+                SocialGate: {
                     subtitle: 'Saas App on Lambda',
                     homepage: 'https://socialgate.me',
                 },
@@ -64,7 +79,7 @@ export default {
                     subtitle: 'Website',
                     homepage: 'https://boesch.swiss',
                 },
-                'Hessmoto': {
+                Hessmoto: {
                     subtitle: 'Website + Blog & Shop api',
                     homepage: 'https://hessmoto.ch',
                 },
