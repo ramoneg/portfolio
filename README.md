@@ -1,3 +1,4 @@
+
 # Portfolio
 
 Hi! I'm Ramon. This is my repo for my portfolio on [homepage](https://ramonegger.ch).
@@ -10,4 +11,15 @@ The portfolio is written with the **Nuxt** framework and made sexy with **Tailwi
  - [TailwindCSS](https://tailwindcss.com/)
 
 ## Screenshot
-Still coding. Coming up soon or check out [ramonegger.ch](https://ramonegger.ch).
+
+ - On Mobile
+
+![Mobile](https://www.ramonegger.ch/mobile.jpg)
+
+ - On Desktop
+
+![Desktop](https://www.ramonegger.ch/desktop.jpg)
+
+ - Google likes it
+
+![Page Speed](https://www.ramonegger.ch/google-page-speed.png)
