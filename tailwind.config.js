@@ -4,6 +4,7 @@ module.exports = {
     purgeLayersByDefault: true,
   },
   purge: [],
+  fallback: 'index.html',
   theme: {
     extend: {
       colors: {
