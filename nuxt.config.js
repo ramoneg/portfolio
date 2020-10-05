@@ -10,7 +10,7 @@ export default {
           },
           {
             set: '@fortawesome/free-brands-svg-icons',
-            icons: ['faGithub', 'faInstagram']
+            icons: ['faGithub', 'faInstagram', 'faLinkedin']
           },
         ]
       }],
