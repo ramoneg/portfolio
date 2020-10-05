@@ -1,6 +1,6 @@
 <template>
   <div class="pr-4">
-    <a :href="url ? url : '#'" target="_blank" class="card p-4 border-l-4 border-gray-700 block rounded">
+    <a :href="url ? url : '#'" target="_blank" class="card p-4 border-l-4 border-ocean-300 block rounded">
       <h2 class="font-bold text-xl">{{ title }}</h2>
       <h2 class="font-bold text-gray-500 tracking-wide">{{ subtitle }}</h2>
 
