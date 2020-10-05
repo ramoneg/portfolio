@@ -9,6 +9,7 @@
       <a target="_blank" href="mailto:ramon@ramonegger.ch"><font-awesome-icon size="lg" icon="envelope" /></a>
       <a target="_blank" href="https://github.com/ramoneg" class="ml-2"><font-awesome-icon size="lg" :icon="['fab', 'github']" /></a>
       <a target="_blank" href="https://instagram.com/aintroman" class="ml-2"><font-awesome-icon size="lg" :icon="['fab', 'instagram']" /></a>
+      <a target="_blank" href="https://www.linkedin.com/in/ramon-egger-7509a4123/" class="ml-2"><font-awesome-icon size="lg" :icon="['fab', 'linkedin']" /></a>
     </div>
     
     <section ref="References">
@@ -22,6 +23,7 @@
               :url="reference.homepage"
               :title="index"
               :subtitle="reference.subtitle"
+              :featured="reference.featured && reference.featured"
             />
         </div>
       </div>
@@ -36,7 +38,9 @@
               :key="index"
               :url="job.homepage"
               :title="job.title"
-              :subtitle="job.company">
+              :subtitle="job.company"
+              :featured="job.featured && job.featured"
+              >
               <h2 class="mt-2 text-gray-500">{{ job.years }}</h2>
             </card>
           </div>
@@ -75,13 +79,27 @@ export default {
                     subtitle: 'Saas App on Lambda',
                     homepage: 'https://socialgate.me',
                 },
+                'Nitrous': {
+                    subtitle: 'Development of Nitrous CMS',
+                    homepage: 'https://racerfish.com/en/nitrous',
+                    featured: true
+                },
                 'Boesch Boats': {
                     subtitle: 'Website',
                     homepage: 'https://boesch.swiss',
+                    featured: true
                 },
                 Hessmoto: {
-                    subtitle: 'Website + Blog & Shop api',
+                    subtitle: 'Website + Blog & Motoscout api',
                     homepage: 'https://hessmoto.ch',
+                },
+                'Harley Bern': {
+                    subtitle: 'Website + Blog & Motoscout api',
+                    homepage: 'https://harley-bern.ch',
+                },
+                'Harley Thun': {
+                    subtitle: 'Website + Blog & Motoscout api',
+                    homepage: 'https://harley-Thun.ch',
                 },
             },
             jobHistory: [
@@ -90,6 +108,7 @@ export default {
                     years: '2020 - now',
                     title: 'Web Developer',
                     homepage: 'https://racerfish.com',
+                    featured: true
                 },
                 {
                     company: 'RACERFISH AG',
