@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1 class="font-mono text-gray-500">Ramon Egger <span class="text-ocean-200">|</span> Full Stack Web Developer</h1>
-    <p class="mt-6 text-2xl md:text-3xl leading-none">Hey! I am <span class="font-bold text-4xl md:text-5xl">Ramon</span></p>
-    <p class="mt-2 text-xl leading-none">I passionately code web-apps and websites</p>
+    <p class="mt-6 text-2xl md:text-3xl leading-none text-ocean-300">Hey! I am <span class="font-bold text-white text-4xl md:text-5xl">Ramon</span></p>
+    <p class="mt-2 text-xl leading-none text-ocean-300">I passionately code web-apps and websites</p>
     <section ref="meta" class="text-xl leading-none text-ocean-300">This portfolio is on <a class="text-white font-bold" href="https://github.com/ramoneg/portfolio.git">GitHub</a></section>
     <section ref="References">
       <div class="content">
