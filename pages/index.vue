@@ -51,7 +51,7 @@
 <script>
 export default {
     head: {
-        title: 'Ramon Egger | Portfolio',
+        title: 'Ramon Egger | Full Stack Web Developer & Audio Producer',
         meta: [
             { charset: 'utf-8' },
             {
@@ -61,7 +61,7 @@ export default {
             {
                 hid: "description",
                 name: 'description',
-                content: 'Ramon Eggers portfolio - full stack web developer from Zurich, Switzerland.',
+                content: 'Ramon Egger - Full Stack Web Developer & Audio Producer From Switzerland',
             },
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
