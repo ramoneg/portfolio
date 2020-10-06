@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="font-mono text-ocean-300 opacity-50">Ramon Egger <span class="text-ocean-200">|</span> Full Stack Web Developer</h1>
+    <h1 class="font-mono text-ocean-300 opacity-50">Ramon Egger <span class="text-ocean-200">|</span> <br class="sm:hidden">Full Stack Web Developer</h1>
     <p class="mt-4 text-2xl md:text-3xl leading-none text-ocean-300">Hey! I am <span class="font-bold text-white text-4xl md:text-5xl">Ramon</span></p>
     <p class="mt-2 text-xl leading-none text-ocean-300">I passionately code web-apps and websites</p>
     <div class="text-xl leading-none text-ocean-300 mt-12">This portfolio is on <a class="text-white font-bold" href="https://github.com/ramoneg/portfolio.git">GitHub</a></div>
